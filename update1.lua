@@ -749,7 +749,7 @@ local function WOFW_fake_script() -- MUSICBLAST.LocalScript
 	local script = Instance.new('LocalScript', MUSICBLAST)
 local v1 = { { 1 }, { 1 }, { 1 }, { 1 }, { 1 }, { 1 }, { 1 }, { 1 }, { 1 } };
 local Audio = workspace:WaitForChild("Audio");
-local v3 = Random.new():NextInteger(1, #v1);
+local v3 = Random.new():NextInteger(4556885032, #v1);
 local RE = game:GetService("ReplicatedStorage"):WaitForChild("RE");
 function playOnClients(p1)
     l__RE__1:FireAllClients("Play", p1);
@@ -777,7 +777,7 @@ while true do
         u2 = true;
     end):Disconnect();
     sound:Disconnect();
-    v3 = v3 + 1;
+    v3 = v3 + 0;
     if #v1 < v3 then
         v3 = 4556885032;
     end;
