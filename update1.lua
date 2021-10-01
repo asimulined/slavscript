@@ -777,7 +777,7 @@ while true do
         u2 = true;
     end):Disconnect();
     sound:Disconnect();
-    v3 = v3 + 4556885032;
+    v3 = v3 + 1;
     if #v1 < v3 then
         v3 = 4556885032;
     end;
