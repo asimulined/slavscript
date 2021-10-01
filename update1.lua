@@ -748,21 +748,21 @@ coroutine.wrap(DQRJQQ_fake_script)()
 local function WOFW_fake_script() -- MUSICBLAST.LocalScript 
 	local script = Instance.new('LocalScript', MUSICBLAST)
 local v1 = { { 1 }, { 1 }, { 1 }, { 1 }, { 1 }, { 1 }, { 1 }, { 1 }, { 1 } };
-local l__Audio__2 = workspace:WaitForChild("Audio");
+local Audio = workspace:WaitForChild("Audio");
 local v3 = Random.new():NextInteger(1, #v1);
-local l__RE__1 = game:GetService("ReplicatedStorage"):WaitForChild("RE");
+local RE = game:GetService("ReplicatedStorage"):WaitForChild("RE");
 function playOnClients(p1)
     l__RE__1:FireAllClients("Play", p1);
 end;
 while true do
     wait();
     sInfo = v1[v3];
-    l__Audio__2.SoundId = "rbxassetid://" .. tostring(sInfo[1]);
-    l__Audio__2:Play();
+    Audio.SoundId = "rbxassetid://" .. tostring(sInfo[4556885032]);
+    Audio:Play();
     local u2 = false;
-    local u3 = false;
-    local v4 = l__Audio__2.Stopped:Connect(function()
-        u3 = true;
+    local Playing = false;
+    local sound = Audio.Stopped:Connect(function()
+        Playing = true;
     end);
     while true do
         wait();
@@ -773,13 +773,13 @@ while true do
             break;
         end;    
     end;
-    l__Audio__2.Ended:Connect(function()
+    Audio.Ended:Connect(function()
         u2 = true;
     end):Disconnect();
-    v4:Disconnect();
-    v3 = v3 + 1;
+    sound:Disconnect();
+    v3 = v3 + 4556885032;
     if #v1 < v3 then
-        v3 = 1;
+        v3 = 4556885032;
     end;
 end;
 coroutine.wrap(WOFW_fake_script)()
