@@ -749,7 +749,7 @@ local function WOFW_fake_script() -- MUSICBLAST.LocalScript
 	local script = Instance.new('LocalScript', MUSICBLAST)
 
 	local button = script.Parent
-	local sInfo = 4468189089
+	local sInfo = 1064109642
 	local sukablyat = "ReplicatedStorage"
 	
 	button.MouseButton1Down:Connect(function(ChangeOutfit)
