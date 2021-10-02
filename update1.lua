@@ -1,4 +1,4 @@
----passcode: OPERATIONMOSCOW
+--PASSCODE: OPERATIONMOSCOW
 
 local SLAVPANEL = Instance.new("ScreenGui")
 local SLAVPAGES = Instance.new("Frame")
@@ -20,71 +20,103 @@ local UISizeConstraint_7 = Instance.new("UISizeConstraint")
 local UISizeConstraint_8 = Instance.new("UISizeConstraint")
 local MUSIC = Instance.new("TextButton")
 local UISizeConstraint_9 = Instance.new("UISizeConstraint")
-local BOTTOMENU = Instance.new("ImageLabel")
+local JOKESUS = Instance.new("ImageButton")
 local UISizeConstraint_10 = Instance.new("UISizeConstraint")
-local TextLabel_2 = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
 local UISizeConstraint_11 = Instance.new("UISizeConstraint")
-local MISSION = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
 local UISizeConstraint_12 = Instance.new("UISizeConstraint")
-local ImageLabel_3 = Instance.new("ImageLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local BOTTOMENU = Instance.new("ImageLabel")
 local UISizeConstraint_13 = Instance.new("UISizeConstraint")
+local TextLabel_3 = Instance.new("TextLabel")
+local UISizeConstraint_14 = Instance.new("UISizeConstraint")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local UICorner = Instance.new("UICorner")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local UISizeConstraint_15 = Instance.new("UISizeConstraint")
+local MISSION = Instance.new("Frame")
+local UISizeConstraint_16 = Instance.new("UISizeConstraint")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local UISizeConstraint_17 = Instance.new("UISizeConstraint")
 local SCRIPTS = Instance.new("ScrollingFrame")
 local KILLALL = Instance.new("TextButton")
-local UISizeConstraint_14 = Instance.new("UISizeConstraint")
-local VHGUS = Instance.new("TextButton")
-local UISizeConstraint_15 = Instance.new("UISizeConstraint")
-local UISizeConstraint_16 = Instance.new("UISizeConstraint")
-local FEANIMATIONS = Instance.new("TextButton")
-local UISizeConstraint_17 = Instance.new("UISizeConstraint")
-local IYADMIN = Instance.new("TextButton")
 local UISizeConstraint_18 = Instance.new("UISizeConstraint")
-local FATES = Instance.new("TextButton")
+local VHGUS = Instance.new("TextButton")
 local UISizeConstraint_19 = Instance.new("UISizeConstraint")
-local VHUGS2 = Instance.new("TextButton")
 local UISizeConstraint_20 = Instance.new("UISizeConstraint")
-local NAKED = Instance.new("TextButton")
+local FEANIMATIONS = Instance.new("TextButton")
 local UISizeConstraint_21 = Instance.new("UISizeConstraint")
-local MUSICBLAST = Instance.new("TextButton")
+local IYADMIN = Instance.new("TextButton")
 local UISizeConstraint_22 = Instance.new("UISizeConstraint")
-local BOTTOMENU_2 = Instance.new("ImageLabel")
+local FATES = Instance.new("TextButton")
 local UISizeConstraint_23 = Instance.new("UISizeConstraint")
-local RETURN = Instance.new("TextButton")
+local VHUGS2 = Instance.new("TextButton")
 local UISizeConstraint_24 = Instance.new("UISizeConstraint")
-local TextLabel_3 = Instance.new("TextLabel")
+local NAKED = Instance.new("TextButton")
 local UISizeConstraint_25 = Instance.new("UISizeConstraint")
-local TextLabel_4 = Instance.new("TextLabel")
+local MUSICBLAST = Instance.new("TextButton")
 local UISizeConstraint_26 = Instance.new("UISizeConstraint")
-local OPENCLOSE = Instance.new("ImageButton")
+local BOTTOMENU_2 = Instance.new("ImageLabel")
 local UISizeConstraint_27 = Instance.new("UISizeConstraint")
-local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
-local LOADING = Instance.new("ImageLabel")
+local RETURN = Instance.new("TextButton")
 local UISizeConstraint_28 = Instance.new("UISizeConstraint")
-local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
 local UISizeConstraint_29 = Instance.new("UISizeConstraint")
-local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
-local MUSIC_2 = Instance.new("ImageLabel")
+local TextLabel_5 = Instance.new("TextLabel")
 local UISizeConstraint_30 = Instance.new("UISizeConstraint")
-local BOTTOMENU_3 = Instance.new("ImageLabel")
+local OPENCLOSE = Instance.new("ImageButton")
 local UISizeConstraint_31 = Instance.new("UISizeConstraint")
-local RETURN_2 = Instance.new("TextButton")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local LOADING = Instance.new("ImageLabel")
 local UISizeConstraint_32 = Instance.new("UISizeConstraint")
-local ERRORBLYAT = Instance.new("ImageLabel")
+local TextLabel_6 = Instance.new("TextLabel")
 local UISizeConstraint_33 = Instance.new("UISizeConstraint")
-local WRONGMUSIC = Instance.new("TextButton")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local MUSIC_2 = Instance.new("ImageLabel")
 local UISizeConstraint_34 = Instance.new("UISizeConstraint")
-local RUSSIANMUSIC = Instance.new("TextButton")
+local BOTTOMENU_3 = Instance.new("ImageLabel")
 local UISizeConstraint_35 = Instance.new("UISizeConstraint")
-local RUSMUSIC = Instance.new("ImageLabel")
+local RETURN_2 = Instance.new("TextButton")
 local UISizeConstraint_36 = Instance.new("UISizeConstraint")
-local BOTTOMENU_4 = Instance.new("ImageLabel")
+local ERRORBLYAT = Instance.new("ImageLabel")
 local UISizeConstraint_37 = Instance.new("UISizeConstraint")
-local RETURN_3 = Instance.new("TextButton")
+local WRONGMUSIC = Instance.new("TextButton")
 local UISizeConstraint_38 = Instance.new("UISizeConstraint")
+local RUSSIANMUSIC = Instance.new("TextButton")
+local UISizeConstraint_39 = Instance.new("UISizeConstraint")
+local RUSMUSIC = Instance.new("ImageLabel")
+local UISizeConstraint_40 = Instance.new("UISizeConstraint")
+local BOTTOMENU_4 = Instance.new("ImageLabel")
+local UISizeConstraint_41 = Instance.new("UISizeConstraint")
+local RETURN_3 = Instance.new("TextButton")
+local UISizeConstraint_42 = Instance.new("UISizeConstraint")
 local ERRORBLYAT_2 = Instance.new("ImageLabel")
 local CHEEKI = Instance.new("TextButton")
-local UISizeConstraint_39 = Instance.new("UISizeConstraint")
+local UISizeConstraint_43 = Instance.new("UISizeConstraint")
 local TRIPOLOSKI = Instance.new("TextButton")
-local UISizeConstraint_40 = Instance.new("UISizeConstraint")
+local UISizeConstraint_44 = Instance.new("UISizeConstraint")
+local JOKESONUS = Instance.new("Frame")
+local UISizeConstraint_45 = Instance.new("UISizeConstraint")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local DECLAREWAR_2 = Instance.new("TextButton")
+local UISizeConstraint_46 = Instance.new("UISizeConstraint")
+local UISizeConstraint_47 = Instance.new("UISizeConstraint")
+local MUSIC_3 = Instance.new("TextButton")
+local UISizeConstraint_48 = Instance.new("UISizeConstraint")
+local BOTTOMENU_5 = Instance.new("ImageLabel")
+local UISizeConstraint_49 = Instance.new("UISizeConstraint")
+local TextLabel_7 = Instance.new("TextLabel")
+local UISizeConstraint_50 = Instance.new("UISizeConstraint")
+local JOKES = Instance.new("ScrollingFrame")
+local UISizeConstraint_51 = Instance.new("UISizeConstraint")
+local JOKE1 = Instance.new("TextLabel")
+local JOKE2 = Instance.new("TextLabel")
+local JOKE3 = Instance.new("TextLabel")
+local JOKE4 = Instance.new("TextLabel")
+local JOKE5 = Instance.new("TextLabel")
+local JOKE6 = Instance.new("TextLabel")
+local JOKE7 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -120,8 +152,8 @@ UISizeConstraint_2.Parent = ImageLabel
 SUBMIT.Name = "SUBMIT"
 SUBMIT.Parent = LOGIN
 SUBMIT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SUBMIT.Position = UDim2.new(0.398763508, 0, 0.685279191, 0)
-SUBMIT.Size = UDim2.new(0, 128, 0, 27)
+SUBMIT.Position = UDim2.new(0.30602774, 0, 0.685279191, 0)
+SUBMIT.Size = UDim2.new(0, 250, 0, 27)
 SUBMIT.Font = Enum.Font.SourceSans
 SUBMIT.Text = "SUBMIT"
 SUBMIT.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -132,8 +164,8 @@ UISizeConstraint_3.Parent = SUBMIT
 PASSCODE.Name = "PASSCODE"
 PASSCODE.Parent = LOGIN
 PASSCODE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-PASSCODE.Position = UDim2.new(0.398763448, 0, 0.565989912, 0)
-PASSCODE.Size = UDim2.new(0, 130, 0, 19)
+PASSCODE.Position = UDim2.new(0.30602771, 0, 0.558375716, 0)
+PASSCODE.Size = UDim2.new(0, 251, 0, 19)
 PASSCODE.Font = Enum.Font.SourceSans
 PASSCODE.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
 PASSCODE.PlaceholderText = "Your KGB LOGIN"
@@ -203,6 +235,47 @@ MUSIC.TextSize = 28.000
 
 UISizeConstraint_9.Parent = MUSIC
 
+JOKESUS.Name = "JOKESUS"
+JOKESUS.Parent = ImageLabel_2
+JOKESUS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JOKESUS.BorderSizePixel = 0
+JOKESUS.Position = UDim2.new(0.185758516, 0, 0.240540534, 0)
+JOKESUS.Size = UDim2.new(0, 118, 0, 64)
+JOKESUS.Image = "http://www.roblox.com/asset/?id=6851022761"
+
+UISizeConstraint_10.Parent = JOKESUS
+
+Frame.Parent = JOKESUS
+Frame.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(-0.0353938341, 0, 0.462246627, 0)
+Frame.Rotation = 27.000
+Frame.Size = UDim2.new(0, 130, 0, 4)
+
+UISizeConstraint_11.Parent = Frame
+
+Frame_2.Parent = JOKESUS
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(-0.0353938341, 0, 0.462246627, 0)
+Frame_2.Rotation = 335.000
+Frame_2.Size = UDim2.new(0, 130, 0, 4)
+
+UISizeConstraint_12.Parent = Frame_2
+
+TextLabel_2.Parent = ImageLabel_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.179566562, 0, 0.432432443, 0)
+TextLabel_2.Size = UDim2.new(0, 126, 0, 24)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Jokes about the US"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
 BOTTOMENU.Name = "BOTTOMENU"
 BOTTOMENU.Parent = MAIN
 BOTTOMENU.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -211,19 +284,34 @@ BOTTOMENU.Position = UDim2.new(0, 0, 0.939086318, 0)
 BOTTOMENU.Size = UDim2.new(0, 647, 0, 24)
 BOTTOMENU.Image = "rbxassetid://7597260892"
 
-UISizeConstraint_10.Parent = BOTTOMENU
+UISizeConstraint_13.Parent = BOTTOMENU
 
-TextLabel_2.Parent = MAIN
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.Position = UDim2.new(0.344667703, 0, 0.0253807101, 0)
-TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "WELCOME GLORIOUS LEADER WHAT U WANT TO DO?"
-TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.TextSize = 28.000
+TextLabel_3.Parent = MAIN
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.344667703, 0, 0.0253807101, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "WELCOME GLORIOUS LEADER WHAT U WANT TO DO?"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 28.000
 
-UISizeConstraint_11.Parent = TextLabel_2
+UISizeConstraint_14.Parent = TextLabel_3
+
+ImageLabel_3.Parent = MAIN
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+ImageLabel_3.Position = UDim2.new(0.814241469, 0, 0.649746239, 0)
+ImageLabel_3.Size = UDim2.new(0, 105, 0, 118)
+ImageLabel_3.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner.CornerRadius = UDim.new(0, 80)
+UICorner.Parent = ImageLabel_3
+
+UIAspectRatioConstraint.Parent = ImageLabel_3
+UIAspectRatioConstraint.AspectRatio = 1.010
+UIAspectRatioConstraint.DominantAxis = Enum.DominantAxis.Height
+
+UISizeConstraint_15.Parent = ImageLabel_3
 
 MISSION.Name = "MISSION"
 MISSION.Parent = SLAVPAGES
@@ -233,18 +321,18 @@ MISSION.Position = UDim2.new(-0.00238700211, 0, 0.00201524049, 0)
 MISSION.Size = UDim2.new(0, 647, 0, 394)
 MISSION.Visible = false
 
-UISizeConstraint_12.Parent = MISSION
+UISizeConstraint_16.Parent = MISSION
 
-ImageLabel_3.Parent = MISSION
-ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_3.BorderSizePixel = 0
-ImageLabel_3.Size = UDim2.new(0, 647, 0, 370)
-ImageLabel_3.Image = "rbxassetid://7597255927"
+ImageLabel_4.Parent = MISSION
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Size = UDim2.new(0, 647, 0, 370)
+ImageLabel_4.Image = "rbxassetid://7597255927"
 
-UISizeConstraint_13.Parent = ImageLabel_3
+UISizeConstraint_17.Parent = ImageLabel_4
 
 SCRIPTS.Name = "SCRIPTS"
-SCRIPTS.Parent = ImageLabel_3
+SCRIPTS.Parent = ImageLabel_4
 SCRIPTS.Active = true
 SCRIPTS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 SCRIPTS.BackgroundTransparency = 1.000
@@ -263,7 +351,7 @@ KILLALL.Text = "Kill All"
 KILLALL.TextColor3 = Color3.fromRGB(0, 0, 0)
 KILLALL.TextSize = 28.000
 
-UISizeConstraint_14.Parent = KILLALL
+UISizeConstraint_18.Parent = KILLALL
 
 VHGUS.Name = "VHGUS"
 VHGUS.Parent = SCRIPTS
@@ -276,9 +364,9 @@ VHGUS.Text = "VIBEHUGS GUI V1"
 VHGUS.TextColor3 = Color3.fromRGB(0, 0, 0)
 VHGUS.TextSize = 28.000
 
-UISizeConstraint_15.Parent = VHGUS
+UISizeConstraint_19.Parent = VHGUS
 
-UISizeConstraint_16.Parent = SCRIPTS
+UISizeConstraint_20.Parent = SCRIPTS
 
 FEANIMATIONS.Name = "FEANIMATIONS"
 FEANIMATIONS.Parent = SCRIPTS
@@ -291,7 +379,7 @@ FEANIMATIONS.Text = "FE ANIMATIONS"
 FEANIMATIONS.TextColor3 = Color3.fromRGB(0, 0, 0)
 FEANIMATIONS.TextSize = 28.000
 
-UISizeConstraint_17.Parent = FEANIMATIONS
+UISizeConstraint_21.Parent = FEANIMATIONS
 
 IYADMIN.Name = "IYADMIN"
 IYADMIN.Parent = SCRIPTS
@@ -304,7 +392,7 @@ IYADMIN.Text = "InfYield Admin"
 IYADMIN.TextColor3 = Color3.fromRGB(0, 0, 0)
 IYADMIN.TextSize = 28.000
 
-UISizeConstraint_18.Parent = IYADMIN
+UISizeConstraint_22.Parent = IYADMIN
 
 FATES.Name = "FATES"
 FATES.Parent = SCRIPTS
@@ -317,7 +405,7 @@ FATES.Text = "Fates Admin"
 FATES.TextColor3 = Color3.fromRGB(0, 0, 0)
 FATES.TextSize = 28.000
 
-UISizeConstraint_19.Parent = FATES
+UISizeConstraint_23.Parent = FATES
 
 VHUGS2.Name = "VHUGS2"
 VHUGS2.Parent = SCRIPTS
@@ -330,7 +418,7 @@ VHUGS2.Text = "BLYAT HUGS"
 VHUGS2.TextColor3 = Color3.fromRGB(0, 0, 0)
 VHUGS2.TextSize = 28.000
 
-UISizeConstraint_20.Parent = VHUGS2
+UISizeConstraint_24.Parent = VHUGS2
 
 NAKED.Name = "NAKED"
 NAKED.Parent = SCRIPTS
@@ -343,7 +431,7 @@ NAKED.Text = "GET NAKED IN FRONT OF SLUTS"
 NAKED.TextColor3 = Color3.fromRGB(0, 0, 0)
 NAKED.TextSize = 14.000
 
-UISizeConstraint_21.Parent = NAKED
+UISizeConstraint_25.Parent = NAKED
 
 MUSICBLAST.Name = "MUSICBLAST"
 MUSICBLAST.Parent = SCRIPTS
@@ -356,7 +444,7 @@ MUSICBLAST.Text = "MUSICTAMPER"
 MUSICBLAST.TextColor3 = Color3.fromRGB(0, 0, 0)
 MUSICBLAST.TextSize = 14.000
 
-UISizeConstraint_22.Parent = MUSICBLAST
+UISizeConstraint_26.Parent = MUSICBLAST
 
 BOTTOMENU_2.Name = "BOTTOMENU"
 BOTTOMENU_2.Parent = MISSION
@@ -366,7 +454,7 @@ BOTTOMENU_2.Position = UDim2.new(0, 0, 0.939086318, 0)
 BOTTOMENU_2.Size = UDim2.new(0, 647, 0, 24)
 BOTTOMENU_2.Image = "rbxassetid://7597260892"
 
-UISizeConstraint_23.Parent = BOTTOMENU_2
+UISizeConstraint_27.Parent = BOTTOMENU_2
 
 RETURN.Name = "RETURN"
 RETURN.Parent = BOTTOMENU_2
@@ -380,31 +468,31 @@ RETURN.Text = ""
 RETURN.TextColor3 = Color3.fromRGB(0, 0, 0)
 RETURN.TextSize = 28.000
 
-UISizeConstraint_24.Parent = RETURN
-
-TextLabel_3.Parent = MISSION
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.Position = UDim2.new(0.36321485, 0, 0.0279187821, 0)
-TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "SUKA BLYAT HUB"
-TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.TextSize = 45.000
-
-UISizeConstraint_25.Parent = TextLabel_3
+UISizeConstraint_28.Parent = RETURN
 
 TextLabel_4.Parent = MISSION
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.BackgroundTransparency = 1.000
-TextLabel_4.Position = UDim2.new(0.36321485, 0, 0.144670054, 0)
+TextLabel_4.Position = UDim2.new(0.36321485, 0, 0.0279187821, 0)
 TextLabel_4.Size = UDim2.new(0, 200, 0, 50)
 TextLabel_4.Font = Enum.Font.SourceSans
-TextLabel_4.Text = "Press bottom left corner (green button to go back to menu)"
+TextLabel_4.Text = "SUKA BLYAT HUB"
 TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.TextSize = 25.000
+TextLabel_4.TextSize = 45.000
 
-UISizeConstraint_26.Parent = TextLabel_4
+UISizeConstraint_29.Parent = TextLabel_4
+
+TextLabel_5.Parent = MISSION
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.36321485, 0, 0.144670054, 0)
+TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Press bottom left corner (green button to go back to menu)"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 25.000
+
+UISizeConstraint_30.Parent = TextLabel_5
 
 OPENCLOSE.Name = "OPENCLOSE"
 OPENCLOSE.Parent = SLAVPAGES
@@ -414,9 +502,9 @@ OPENCLOSE.Size = UDim2.new(0, 76, 0, 73)
 OPENCLOSE.Visible = false
 OPENCLOSE.Image = "http://www.roblox.com/asset/?id=1688808005"
 
-UISizeConstraint_27.Parent = OPENCLOSE
+UISizeConstraint_31.Parent = OPENCLOSE
 
-UIAspectRatioConstraint.Parent = OPENCLOSE
+UIAspectRatioConstraint_2.Parent = OPENCLOSE
 
 LOADING.Name = "LOADING"
 LOADING.Parent = SLAVPAGES
@@ -426,22 +514,22 @@ LOADING.Position = UDim2.new(0.000322042033, 0, 0.00205690414, 0)
 LOADING.Size = UDim2.new(0, 647, 0, 394)
 LOADING.Image = "rbxassetid://7597308711"
 
-UISizeConstraint_28.Parent = LOADING
+UISizeConstraint_32.Parent = LOADING
 
-TextLabel_5.Parent = LOADING
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.BackgroundTransparency = 1.000
-TextLabel_5.Position = UDim2.new(0.0981313288, 0, -0.0011195913, 0)
-TextLabel_5.Size = UDim2.new(0, 521, 0, 60)
-TextLabel_5.Font = Enum.Font.SourceSans
-TextLabel_5.Text = "загрузка секретных миссий для Родины. пожалуйста, подождите несколько секунд, пока панель загрузится"
-TextLabel_5.TextColor3 = Color3.fromRGB(252, 252, 252)
-TextLabel_5.TextSize = 14.000
+TextLabel_6.Parent = LOADING
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.0981313288, 0, -0.0011195913, 0)
+TextLabel_6.Size = UDim2.new(0, 521, 0, 60)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "загрузка секретных миссий для Родины. пожалуйста, подождите несколько секунд, пока панель загрузится"
+TextLabel_6.TextColor3 = Color3.fromRGB(252, 252, 252)
+TextLabel_6.TextSize = 14.000
 
-UISizeConstraint_29.Parent = TextLabel_5
+UISizeConstraint_33.Parent = TextLabel_6
 
-UIAspectRatioConstraint_2.Parent = LOADING
-UIAspectRatioConstraint_2.AspectRatio = 1.640
+UIAspectRatioConstraint_3.Parent = LOADING
+UIAspectRatioConstraint_3.AspectRatio = 1.640
 
 MUSIC_2.Name = "MUSIC"
 MUSIC_2.Parent = SLAVPAGES
@@ -451,7 +539,7 @@ MUSIC_2.Size = UDim2.new(0, 647, 0, 394)
 MUSIC_2.Visible = false
 MUSIC_2.Image = "rbxassetid://7612752334"
 
-UISizeConstraint_30.Parent = MUSIC_2
+UISizeConstraint_34.Parent = MUSIC_2
 
 BOTTOMENU_3.Name = "BOTTOMENU"
 BOTTOMENU_3.Parent = MUSIC_2
@@ -461,7 +549,7 @@ BOTTOMENU_3.Position = UDim2.new(0, 0, 0.939086318, 0)
 BOTTOMENU_3.Size = UDim2.new(0, 647, 0, 24)
 BOTTOMENU_3.Image = "rbxassetid://7597260892"
 
-UISizeConstraint_31.Parent = BOTTOMENU_3
+UISizeConstraint_35.Parent = BOTTOMENU_3
 
 RETURN_2.Name = "RETURN"
 RETURN_2.Parent = BOTTOMENU_3
@@ -475,7 +563,7 @@ RETURN_2.Text = ""
 RETURN_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 RETURN_2.TextSize = 28.000
 
-UISizeConstraint_32.Parent = RETURN_2
+UISizeConstraint_36.Parent = RETURN_2
 
 ERRORBLYAT.Name = "ERRORBLYAT"
 ERRORBLYAT.Parent = MUSIC_2
@@ -486,7 +574,7 @@ ERRORBLYAT.Size = UDim2.new(0, 194, 0, 138)
 ERRORBLYAT.Visible = false
 ERRORBLYAT.Image = "rbxassetid://7612801582"
 
-UISizeConstraint_33.Parent = ERRORBLYAT
+UISizeConstraint_37.Parent = ERRORBLYAT
 
 WRONGMUSIC.Name = "WRONGMUSIC"
 WRONGMUSIC.Parent = MUSIC_2
@@ -499,7 +587,7 @@ WRONGMUSIC.Text = "American Music"
 WRONGMUSIC.TextColor3 = Color3.fromRGB(0, 0, 0)
 WRONGMUSIC.TextSize = 14.000
 
-UISizeConstraint_34.Parent = WRONGMUSIC
+UISizeConstraint_38.Parent = WRONGMUSIC
 
 RUSSIANMUSIC.Name = "RUSSIANMUSIC"
 RUSSIANMUSIC.Parent = MUSIC_2
@@ -512,7 +600,7 @@ RUSSIANMUSIC.Text = "Russian Hardbass"
 RUSSIANMUSIC.TextColor3 = Color3.fromRGB(0, 0, 0)
 RUSSIANMUSIC.TextSize = 14.000
 
-UISizeConstraint_35.Parent = RUSSIANMUSIC
+UISizeConstraint_39.Parent = RUSSIANMUSIC
 
 RUSMUSIC.Name = "RUSMUSIC"
 RUSMUSIC.Parent = MUSIC_2
@@ -522,7 +610,7 @@ RUSMUSIC.Size = UDim2.new(0, 647, 0, 394)
 RUSMUSIC.Visible = false
 RUSMUSIC.Image = "rbxassetid://7612752334"
 
-UISizeConstraint_36.Parent = RUSMUSIC
+UISizeConstraint_40.Parent = RUSMUSIC
 
 BOTTOMENU_4.Name = "BOTTOMENU"
 BOTTOMENU_4.Parent = RUSMUSIC
@@ -532,7 +620,7 @@ BOTTOMENU_4.Position = UDim2.new(0, 0, 0.939086318, 0)
 BOTTOMENU_4.Size = UDim2.new(0, 647, 0, 24)
 BOTTOMENU_4.Image = "rbxassetid://7597260892"
 
-UISizeConstraint_37.Parent = BOTTOMENU_4
+UISizeConstraint_41.Parent = BOTTOMENU_4
 
 RETURN_3.Name = "RETURN"
 RETURN_3.Parent = BOTTOMENU_4
@@ -546,7 +634,7 @@ RETURN_3.Text = ""
 RETURN_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 RETURN_3.TextSize = 28.000
 
-UISizeConstraint_38.Parent = RETURN_3
+UISizeConstraint_42.Parent = RETURN_3
 
 ERRORBLYAT_2.Name = "ERRORBLYAT"
 ERRORBLYAT_2.Parent = RUSMUSIC
@@ -567,7 +655,7 @@ CHEEKI.Text = "CHEEKI BREEKI"
 CHEEKI.TextColor3 = Color3.fromRGB(0, 0, 0)
 CHEEKI.TextSize = 14.000
 
-UISizeConstraint_39.Parent = CHEEKI
+UISizeConstraint_43.Parent = CHEEKI
 
 TRIPOLOSKI.Name = "TRIPOLOSKI"
 TRIPOLOSKI.Parent = RUSMUSIC
@@ -579,11 +667,169 @@ TRIPOLOSKI.Text = "TRIPOLOSKI"
 TRIPOLOSKI.TextColor3 = Color3.fromRGB(0, 0, 0)
 TRIPOLOSKI.TextSize = 14.000
 
-UISizeConstraint_40.Parent = TRIPOLOSKI
+UISizeConstraint_44.Parent = TRIPOLOSKI
+
+JOKESONUS.Name = "JOKESONUS"
+JOKESONUS.Parent = SLAVPAGES
+JOKESONUS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JOKESONUS.BackgroundTransparency = 1.000
+JOKESONUS.BorderSizePixel = 0
+JOKESONUS.Position = UDim2.new(-0.00238698488, 0, 0.00201524445, 0)
+JOKESONUS.Size = UDim2.new(0, 647, 0, 394)
+JOKESONUS.Visible = false
+
+UISizeConstraint_45.Parent = JOKESONUS
+
+ImageLabel_5.Parent = JOKESONUS
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BorderSizePixel = 0
+ImageLabel_5.Position = UDim2.new(0, 0, -7.93147192e-05, 0)
+ImageLabel_5.Size = UDim2.new(0, 646, 0, 370)
+ImageLabel_5.Image = "rbxassetid://7597255927"
+
+DECLAREWAR_2.Name = "DECLAREWAR"
+DECLAREWAR_2.Parent = ImageLabel_5
+DECLAREWAR_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DECLAREWAR_2.BackgroundTransparency = 1.000
+DECLAREWAR_2.BorderColor3 = Color3.fromRGB(175, 177, 177)
+DECLAREWAR_2.Position = UDim2.new(0.0207264125, 0, 0.467098296, 0)
+DECLAREWAR_2.Size = UDim2.new(0, 65, 0, 82)
+DECLAREWAR_2.Font = Enum.Font.SourceSansBold
+DECLAREWAR_2.Text = ""
+DECLAREWAR_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+DECLAREWAR_2.TextSize = 28.000
+
+UISizeConstraint_46.Parent = DECLAREWAR_2
+
+UISizeConstraint_47.Parent = ImageLabel_5
+
+MUSIC_3.Name = "MUSIC"
+MUSIC_3.Parent = ImageLabel_5
+MUSIC_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MUSIC_3.BackgroundTransparency = 1.000
+MUSIC_3.BorderColor3 = Color3.fromRGB(175, 177, 177)
+MUSIC_3.Position = UDim2.new(0.0207264125, 0, 0.215746984, 0)
+MUSIC_3.Size = UDim2.new(0, 65, 0, 86)
+MUSIC_3.Font = Enum.Font.SourceSansBold
+MUSIC_3.Text = ""
+MUSIC_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+MUSIC_3.TextSize = 28.000
+
+UISizeConstraint_48.Parent = MUSIC_3
+
+BOTTOMENU_5.Name = "BOTTOMENU"
+BOTTOMENU_5.Parent = JOKESONUS
+BOTTOMENU_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BOTTOMENU_5.BorderSizePixel = 0
+BOTTOMENU_5.Position = UDim2.new(0, 0, 0.939086318, 0)
+BOTTOMENU_5.Size = UDim2.new(0, 647, 0, 24)
+BOTTOMENU_5.Image = "rbxassetid://7597260892"
+
+UISizeConstraint_49.Parent = BOTTOMENU_5
+
+TextLabel_7.Parent = JOKESONUS
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.344667703, 0, 0.0253807101, 0)
+TextLabel_7.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "JOKES TO MAKE FUN OF AMERICA"
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextSize = 28.000
+
+UISizeConstraint_50.Parent = TextLabel_7
+
+JOKES.Name = "JOKES"
+JOKES.Parent = JOKESONUS
+JOKES.Active = true
+JOKES.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JOKES.BackgroundTransparency = 1.000
+JOKES.BorderSizePixel = 0
+JOKES.Position = UDim2.new(0.179289028, 0, 0.17766498, 0)
+JOKES.Size = UDim2.new(0, 411, 0, 256)
+JOKES.CanvasPosition = Vector2.new(0, 450)
+
+UISizeConstraint_51.Parent = JOKES
+
+JOKE1.Name = "JOKE1"
+JOKE1.Parent = JOKES
+JOKE1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JOKE1.BorderSizePixel = 0
+JOKE1.Size = UDim2.new(0, 395, 0, 50)
+JOKE1.Font = Enum.Font.SourceSans
+JOKE1.Text = "What do you call a racist community? America"
+JOKE1.TextColor3 = Color3.fromRGB(0, 0, 0)
+JOKE1.TextSize = 14.000
+
+JOKE2.Name = "JOKE2"
+JOKE2.Parent = JOKES
+JOKE2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JOKE2.BorderSizePixel = 0
+JOKE2.Position = UDim2.new(0, 0, 0.0964466929, 0)
+JOKE2.Size = UDim2.new(0, 395, 0, 50)
+JOKE2.Font = Enum.Font.SourceSans
+JOKE2.Text = "How many Americans does it take to fill the Grand Canyon? 4"
+JOKE2.TextColor3 = Color3.fromRGB(0, 0, 0)
+JOKE2.TextSize = 14.000
+
+JOKE3.Name = "JOKE3"
+JOKE3.Parent = JOKES
+JOKE3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JOKE3.BorderSizePixel = 0
+JOKE3.Position = UDim2.new(-0.00243309001, 0, 0.195190415, 0)
+JOKE3.Size = UDim2.new(0, 395, 0, 49)
+JOKE3.Font = Enum.Font.SourceSans
+JOKE3.Text = "Why are Americans so dumb?\\n\\nBecause they shoot the ones that go to school"
+JOKE3.TextColor3 = Color3.fromRGB(0, 0, 0)
+JOKE3.TextSize = 14.000
+
+JOKE4.Name = "JOKE4"
+JOKE4.Parent = JOKES
+JOKE4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JOKE4.BorderSizePixel = 0
+JOKE4.Position = UDim2.new(-0.00243309001, 0, 0.29544422, 0)
+JOKE4.Size = UDim2.new(0, 395, 0, 49)
+JOKE4.Font = Enum.Font.SourceSans
+JOKE4.Text = "What are the best shooting ranges in america?\\n\\nSchools"
+JOKE4.TextColor3 = Color3.fromRGB(0, 0, 0)
+JOKE4.TextSize = 14.000
+
+JOKE5.Name = "JOKE5"
+JOKE5.Parent = JOKES
+JOKE5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JOKE5.BorderSizePixel = 0
+JOKE5.Position = UDim2.new(0.00973236002, 0, 0.390621901, 0)
+JOKE5.Size = UDim2.new(0, 395, 0, 49)
+JOKE5.Font = Enum.Font.SourceSans
+JOKE5.Text = "What is the difference between an American and a computer? \\n\\nAn American doesn’t have trouble shooting"
+JOKE5.TextColor3 = Color3.fromRGB(0, 0, 0)
+JOKE5.TextSize = 14.000
+
+JOKE6.Name = "JOKE6"
+JOKE6.Parent = JOKES
+JOKE6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JOKE6.BorderSizePixel = 0
+JOKE6.Position = UDim2.new(0.00973236002, 0, 0.485799551, 0)
+JOKE6.Size = UDim2.new(0, 395, 0, 49)
+JOKE6.Font = Enum.Font.SourceSans
+JOKE6.Text = "Why can’t America play chess?\\n\\nThey already lost  two towers"
+JOKE6.TextColor3 = Color3.fromRGB(0, 0, 0)
+JOKE6.TextSize = 14.000
+
+JOKE7.Name = "JOKE7"
+JOKE7.Parent = JOKES
+JOKE7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JOKE7.BorderSizePixel = 0
+JOKE7.Position = UDim2.new(0.00973236002, 0, 0.582246244, 0)
+JOKE7.Size = UDim2.new(0, 395, 0, 49)
+JOKE7.Font = Enum.Font.SourceSans
+JOKE7.Text = "Why do all Americans have autism?    Because Trump gave everyone a vaccine."
+JOKE7.TextColor3 = Color3.fromRGB(0, 0, 0)
+JOKE7.TextSize = 14.000
 
 -- Scripts:
 
-local function NWHYBAD_fake_script() -- SUBMIT.LocalScript 
+local function NVTI_fake_script() -- SUBMIT.LocalScript 
 	local script = Instance.new('LocalScript', SUBMIT)
 
 	local code = "OPERATIONMOSCOW" --This is the code the player has to enter
@@ -600,13 +846,13 @@ local function NWHYBAD_fake_script() -- SUBMIT.LocalScript
 			openclose.Visible = true
 			wait(0)
 			current.Visible = false 
-		else 
+	    else
 			return 
 		end
 	end)
 end
-coroutine.wrap(NWHYBAD_fake_script)()
-local function BXMVZZV_fake_script() -- DECLAREWAR.LocalScript 
+coroutine.wrap(NVTI_fake_script)()
+local function DSBYJD_fake_script() -- DECLAREWAR.LocalScript 
 	local script = Instance.new('LocalScript', DECLAREWAR)
 
 	local SB = script.Parent --Submit Button
@@ -624,8 +870,8 @@ local function BXMVZZV_fake_script() -- DECLAREWAR.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BXMVZZV_fake_script)()
-local function JPVWHFN_fake_script() -- MUSIC.LocalScript 
+coroutine.wrap(DSBYJD_fake_script)()
+local function AZRK_fake_script() -- MUSIC.LocalScript 
 	local script = Instance.new('LocalScript', MUSIC)
 
 	local SB = script.Parent --Submit Button
@@ -643,8 +889,46 @@ local function JPVWHFN_fake_script() -- MUSIC.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JPVWHFN_fake_script)()
-local function AVKNB_fake_script() -- KILLALL.LocalScript 
+coroutine.wrap(AZRK_fake_script)()
+local function AYQGFL_fake_script() -- JOKESUS.LocalScript 
+	local script = Instance.new('LocalScript', JOKESUS)
+
+	local SB = script.Parent --Submit Button
+	local current = script.Parent.Parent.Parent
+	local F = script.Parent.Parent.Parent.Parent.JOKESONUS
+	
+	SB.MouseButton1Click:Connect(function() --Fires when submit button is clicked
+		if F.Visible == false and current.Visible == true then 
+			wait(0)
+			F.Visible = true
+			wait(0)
+			current.Visible = false 
+		else 
+			return 
+		end
+	end)
+end
+coroutine.wrap(AYQGFL_fake_script)()
+local function XIOXX_fake_script() -- ImageLabel_3.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel_3)
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	
+	-- Fetch the thumbnail
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	-- Set the ImageLabel's content to the user thumbnail
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+	imageLabel.Size = UDim2.new(0, 105, 0, 118)
+end
+coroutine.wrap(XIOXX_fake_script)()
+local function RCQP_fake_script() -- KILLALL.LocalScript 
 	local script = Instance.new('LocalScript', KILLALL)
 
 	local button = script.Parent
@@ -679,8 +963,8 @@ local function AVKNB_fake_script() -- KILLALL.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(AVKNB_fake_script)()
-local function NCFW_fake_script() -- VHGUS.LocalScript 
+coroutine.wrap(RCQP_fake_script)()
+local function DIYVIGR_fake_script() -- VHGUS.LocalScript 
 	local script = Instance.new('LocalScript', VHGUS)
 
 	local button = script.Parent
@@ -689,8 +973,8 @@ local function NCFW_fake_script() -- VHGUS.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/offperms/Vibe-hugs/main/Admin%20UI"))()
 	end)
 end
-coroutine.wrap(NCFW_fake_script)()
-local function ISCH_fake_script() -- FEANIMATIONS.LocalScript 
+coroutine.wrap(DIYVIGR_fake_script)()
+local function QECMJTF_fake_script() -- FEANIMATIONS.LocalScript 
 	local script = Instance.new('LocalScript', FEANIMATIONS)
 
 	local button = script.Parent
@@ -699,8 +983,8 @@ local function ISCH_fake_script() -- FEANIMATIONS.LocalScript
 			return end _G.emotegui = true return loadstring(game:HttpGet("https://pastebin.com/raw/DjsEQMxQ"))(); 
 	end)
 end
-coroutine.wrap(ISCH_fake_script)()
-local function CEULJ_fake_script() -- IYADMIN.LocalScript 
+coroutine.wrap(QECMJTF_fake_script)()
+local function OHXWQWN_fake_script() -- IYADMIN.LocalScript 
 	local script = Instance.new('LocalScript', IYADMIN)
 
 	local button = script.Parent
@@ -709,8 +993,8 @@ local function CEULJ_fake_script() -- IYADMIN.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 	end)
 end
-coroutine.wrap(CEULJ_fake_script)()
-local function PWKLWDI_fake_script() -- FATES.LocalScript 
+coroutine.wrap(OHXWQWN_fake_script)()
+local function GPMRM_fake_script() -- FATES.LocalScript 
 	local script = Instance.new('LocalScript', FATES)
 
 	local button = script.Parent
@@ -718,8 +1002,8 @@ local function PWKLWDI_fake_script() -- FATES.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))(); 
 	end)
 end
-coroutine.wrap(PWKLWDI_fake_script)()
-local function SYBQ_fake_script() -- VHUGS2.LocalScript 
+coroutine.wrap(GPMRM_fake_script)()
+local function KQICVB_fake_script() -- VHUGS2.LocalScript 
 	local script = Instance.new('LocalScript', VHUGS2)
 
 	local button = script.Parent
@@ -727,8 +1011,8 @@ local function SYBQ_fake_script() -- VHUGS2.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/weebetofbanter/scriptsforblyat/main/djsuka.lua"))(); 
 	end)
 end
-coroutine.wrap(SYBQ_fake_script)()
-local function DQRJQQ_fake_script() -- NAKED.LocalScript 
+coroutine.wrap(KQICVB_fake_script)()
+local function YKQPQ_fake_script() -- NAKED.LocalScript 
 	local script = Instance.new('LocalScript', NAKED)
 
 	local button = script.Parent
@@ -744,46 +1028,52 @@ local function DQRJQQ_fake_script() -- NAKED.LocalScript
 	end)
 	
 end
-coroutine.wrap(DQRJQQ_fake_script)()
-local function WOFW_fake_script() -- MUSICBLAST.LocalScript 
+coroutine.wrap(YKQPQ_fake_script)()
+local function LAEFKB_fake_script() -- MUSICBLAST.LocalScript 
 	local script = Instance.new('LocalScript', MUSICBLAST)
-local v1 = { { 1 }, { 1 }, { 1 }, { 1 }, { 1 }, { 1 }, { 1 }, { 1 }, { 1 } };
-local Audio = workspace:WaitForChild("Audio");
-local v3 = Random.new():NextInteger(4556885032, #v1);
-local RE = game:GetService("ReplicatedStorage"):WaitForChild("RE");
-function playOnClients(p1)
-    l__RE__1:FireAllClients("Play", p1);
-end;
-while true do
-    wait();
-    sInfo = v1[v3];
-    Audio.SoundId = "rbxassetid://" .. tostring(sInfo[4556885032]);
-    Audio:Play();
-    local u2 = false;
-    local Playing = false;
-    local sound = Audio.Stopped:Connect(function()
-        Playing = true;
-    end);
-    while true do
-        wait();
-        if u2 then
-            break;
-        end;
-        if u3 then
-            break;
-        end;    
-    end;
-    Audio.Ended:Connect(function()
-        u2 = true;
-    end):Disconnect();
-    sound:Disconnect();
-    v3 = v3 + 0;
-    if #v1 < v3 then
-        v3 = 4556885032;
-    end;
-end;
-coroutine.wrap(WOFW_fake_script)()
-local function ZCWTZH_fake_script() -- RETURN.LocalScript 
+
+	local button = script.Parent
+	local All = game.Players
+	local v1 = { { 4556885032 }, { 4556885032 }, { 4556885032 }, { 4556885032 }, { 4556885032 }, { 4556885032 }, { 4556885032 }, { 4556885032 }, { 4556885032 } };
+	local lAudio2 = workspace:WaitForChild("Audio");
+	local v3 = Random.new():NextInteger(1, #v1);
+	local lRE1 = game:GetService("ReplicatedStorage"):WaitForChild("RE");
+	
+	function PlayOnClient(p1)
+		lRE1:FireAllCilents("Play", All);
+		end
+	
+	while true do
+		wait();
+		sInfo = v1[v3];
+		lAudio2.SoundId = "rbxassetid://" .. tostring(sInfo[1]);
+		lAudio2:Play();
+		local u2 = false;
+		local u3 = false;
+		local v4 = lAudio2.Stopped:Connect(function()
+			u3 = true;
+		end);
+		while true do
+			wait();
+			if u2 then
+				break;
+			end;
+			if u3 then
+				break;
+			end;
+		end;
+		lAudio2.Ended:Connect(function()
+			u2 = true;
+		end):Disconnect();
+		v4:Disconnect();
+		v3 = v3 + 1;
+		if #v1 < v3 then
+			v3 = 1;
+		end
+	end
+end
+coroutine.wrap(LAEFKB_fake_script)()
+local function TNJG_fake_script() -- RETURN.LocalScript 
 	local script = Instance.new('LocalScript', RETURN)
 
 	local SB = script.Parent --Submit Button
@@ -801,8 +1091,8 @@ local function ZCWTZH_fake_script() -- RETURN.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZCWTZH_fake_script)()
-local function NPMFNIH_fake_script() -- OPENCLOSE.LocalScript 
+coroutine.wrap(TNJG_fake_script)()
+local function LAMSOT_fake_script() -- OPENCLOSE.LocalScript 
 	local script = Instance.new('LocalScript', OPENCLOSE)
 
 	local button = script.Parent
@@ -824,39 +1114,25 @@ local function NPMFNIH_fake_script() -- OPENCLOSE.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NPMFNIH_fake_script)()
-local function LDZSC_fake_script() -- TextLabel_5.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_5)
+coroutine.wrap(LAMSOT_fake_script)()
+local function HZCC_fake_script() -- TextLabel_6.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_6)
 
 	local text = script.Parent.Parent.TextLabel
 	local DJBLYATMAN = text.Text
 	local LOGINFRAME = script.Parent.Parent.Parent.LOGIN
 	local CURRENTFRAME = script.Parent.Parent
 	
-	if text.Text == "загрузка секретных миссий для Родины. пожалуйста, подождите несколько секунд, пока панель загрузится" then
-	wait(3)
-	DJBLYATMAN = "жду окна советский Чтобы загрузить, черт возьми, это займет вечность"
-	wait(3)
-	DJBLYATMAN = "Почти готов, загрузка секретной информации КГБ"
-	wait(3)
-	
 	if CURRENTFRAME.Visible == true and LOGINFRAME.Visible == false then
 		wait(0)
 		CURRENTFRAME.Visible = false
 		wait(0)
 		LOGINFRAME.Visible = true
-		end
 	end
+	
 end
-coroutine.wrap(LDZSC_fake_script)()
-local function HFMQQ_fake_script() -- SLAVPAGES.LocalScript 
-	local script = Instance.new('LocalScript', SLAVPAGES)
-
-	frame = script.Parent
-	frame.Draggable = true
-end
-coroutine.wrap(HFMQQ_fake_script)()
-local function LDSE_fake_script() -- MUSIC_2.LocalScript 
+coroutine.wrap(HZCC_fake_script)()
+local function AIQPI_fake_script() -- MUSIC_2.LocalScript 
 	local script = Instance.new('LocalScript', MUSIC_2)
 
 	local blyat = script.Parent 
@@ -864,8 +1140,8 @@ local function LDSE_fake_script() -- MUSIC_2.LocalScript
 	game:GetService("ReplicatedStorage").Events.UpdateSongList:FireServer()
 	
 end
-coroutine.wrap(LDSE_fake_script)()
-local function TVFJIK_fake_script() -- RETURN_2.LocalScript 
+coroutine.wrap(AIQPI_fake_script)()
+local function ADQRUSR_fake_script() -- RETURN_2.LocalScript 
 	local script = Instance.new('LocalScript', RETURN_2)
 
 	local SB = script.Parent --Submit Button
@@ -883,28 +1159,33 @@ local function TVFJIK_fake_script() -- RETURN_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(TVFJIK_fake_script)()
-local function CIQQA_fake_script() -- WRONGMUSIC.LocalScript 
+coroutine.wrap(ADQRUSR_fake_script)()
+local function FXPG_fake_script() -- WRONGMUSIC.LocalScript 
 	local script = Instance.new('LocalScript', WRONGMUSIC)
 
 	local button = script.Parent
 	local SUKA = script.Parent.Parent.ERRORBLYAT
+	local button2 = script.Parent.Parent.RUSSIANMUSIC
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		if SUKA.Visible == false then
-				SUKA.Visible = true
-				wait(3)
-				SUKA.Visible = false
+			SUKA.Visible = true
+			button2.Visible = false
+			button.Visible = false
+			wait(3)
+			button2.Visible = true
+			button.Visible = true
+			SUKA.Visible = false
 		end
 	end)
 end
-coroutine.wrap(CIQQA_fake_script)()
-local function RJZALLD_fake_script() -- RUSSIANMUSIC.LocalScript 
+coroutine.wrap(FXPG_fake_script)()
+local function CTCZ_fake_script() -- RUSSIANMUSIC.LocalScript 
 	local script = Instance.new('LocalScript', RUSSIANMUSIC)
 
 	local SB = script.Parent --Submit Button
-	local current = script.Parent.Parent.Parent
-	local F = script.Parent.Parent.Parent.Parent.MAIN
+	local current = script.Parent.Parent
+	local F = script.Parent.Parent.RUSMUSIC
 	
 	SB.MouseButton1Click:Connect(function() --Fires when submit button is clicked
 		if F.Visible == false and current.Visible == true then
@@ -917,8 +1198,8 @@ local function RJZALLD_fake_script() -- RUSSIANMUSIC.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RJZALLD_fake_script)()
-local function GZIR_fake_script() -- RUSMUSIC.LocalScript 
+coroutine.wrap(CTCZ_fake_script)()
+local function TTNI_fake_script() -- RUSMUSIC.LocalScript 
 	local script = Instance.new('LocalScript', RUSMUSIC)
 
 	local blyat = script.Parent 
@@ -926,8 +1207,8 @@ local function GZIR_fake_script() -- RUSMUSIC.LocalScript
 	game:GetService("ReplicatedStorage").Events.UpdateSongList:FireServer()
 	
 end
-coroutine.wrap(GZIR_fake_script)()
-local function CIEG_fake_script() -- RETURN_3.LocalScript 
+coroutine.wrap(TTNI_fake_script)()
+local function ELKVVR_fake_script() -- RETURN_3.LocalScript 
 	local script = Instance.new('LocalScript', RETURN_3)
 
 	local SB = script.Parent --Submit Button
@@ -945,4 +1226,43 @@ local function CIEG_fake_script() -- RETURN_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CIEG_fake_script)()
+coroutine.wrap(ELKVVR_fake_script)()
+local function QXMBR_fake_script() -- DECLAREWAR_2.LocalScript 
+	local script = Instance.new('LocalScript', DECLAREWAR_2)
+
+	local SB = script.Parent --Submit Button
+	local current = script.Parent.Parent.Parent
+	local F = script.Parent.Parent.Parent.Parent.MISSION
+	
+	SB.MouseButton1Click:Connect(function() --Fires when submit button is clicked
+		if F.Visible == false and current.Visible == true then 
+			wait(0)
+			F.Visible = true
+			wait(0)
+			current.Visible = false 
+		else 
+			return 
+		end
+	end)
+end
+coroutine.wrap(QXMBR_fake_script)()
+local function VSDIH_fake_script() -- MUSIC_3.LocalScript 
+	local script = Instance.new('LocalScript', MUSIC_3)
+
+	local SB = script.Parent --Submit Button
+	local current = script.Parent.Parent.Parent
+	local F = script.Parent.Parent.Parent.Parent.MUSIC
+	
+	SB.MouseButton1Click:Connect(function() --Fires when submit button is clicked
+		if F.Visible == false and current.Visible == true then 
+			wait(0)
+			F.Visible = true
+			wait(0)
+			current.Visible = false 
+		else 
+			return 
+		end
+	end)
+end
+coroutine.wrap(VSDIH_fake_script)()
+
